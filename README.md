@@ -1,4 +1,4 @@
-# StockSense
+# ShelfWise
 
 StockSense is an inventory and stock management web application built for small and medium retail shops, supermarkets, and local production businesses.
 
