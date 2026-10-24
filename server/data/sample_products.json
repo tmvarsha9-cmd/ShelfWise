@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Bread",
+    "category": "Bakery",
+    "source_type": "MANUFACTURED",
+    "current_stock": 20,
+    "reorder_level": 30,
+    "unit_price": 40,
+    "daily_demand": 15,
+    "expiry_date": "2026-10-27",
+    "lead_time_days": 2
+  },
+  {
+    "id": 2,
+    "name": "Canned Beans",
+    "category": "Pantry",
+    "source_type": "MANUFACTURED",
+    "current_stock": 120,
+    "reorder_level": 25,
+    "unit_price": 35,
+    "daily_demand": 8,
+    "expiry_date": "2027-06-30",
+    "lead_time_days": 4
+  },
+  {
+    "id": 3,
+    "name": "Yogurt",
+    "category": "Dairy",
+    "source_type": "MANUFACTURED",
+    "current_stock": 45,
+    "reorder_level": 20,
+    "unit_price": 25,
+    "daily_demand": 10,
+    "expiry_date": "2026-10-26",
+    "lead_time_days": 2
+  },
+  {
+    "id": 4,
+    "name": "Rice",
+    "category": "Pantry",
+    "source_type": "MANUFACTURED",
+    "current_stock": 80,
+    "reorder_level": 30,
+    "unit_price": 60,
+    "daily_demand": 12,
+    "expiry_date": null,
+    "lead_time_days": 5
+  },
+  {
+    "id": 5,
+    "name": "Apples",
+    "category": "Produce",
+    "source_type": "PURCHASED",
+    "current_stock": 32,
+    "reorder_level": 25,
+    "unit_price": 10,
+    "daily_demand": 9,
+    "expiry_date": "2026-10-31",
+    "lead_time_days": 2
+  },
+  {
+    "id": 6,
+    "name": "Olive Oil",
+    "category": "Pantry",
+    "source_type": "PURCHASED",
+    "current_stock": 18,
+    "reorder_level": 12,
+    "unit_price": 180,
+    "daily_demand": 2,
+    "expiry_date": "2027-02-15",
+    "lead_time_days": 7
+  },
+  {
+    "id": 7,
+    "name": "Eggs",
+    "category": "Dairy",
+    "source_type": "PURCHASED",
+    "current_stock": 24,
+    "reorder_level": 18,
+    "unit_price": 8,
+    "daily_demand": 6,
+    "expiry_date": "2026-11-02",
+    "lead_time_days": 2
+  },
+  {
+    "id": 8,
+    "name": "Coffee",
+    "category": "Beverages",
+    "source_type": "MANUFACTURED",
+    "current_stock": 50,
+    "reorder_level": 15,
+    "unit_price": 120,
+    "daily_demand": 5,
+    "expiry_date": null,
+    "lead_time_days": 6
+  }
+]

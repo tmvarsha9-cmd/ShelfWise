@@ -1,0 +1,4 @@
+# Shared generated and secret files to ignore.
+node_modules
+.env
+dist

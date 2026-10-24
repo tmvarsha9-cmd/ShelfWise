@@ -1,0 +1,13 @@
+-- Products table using the shared product contract (Member 1).
+CREATE TABLE IF NOT EXISTS products (
+  id INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  category TEXT NOT NULL,
+  source_type TEXT NOT NULL,
+  current_stock INTEGER NOT NULL,
+  reorder_level INTEGER NOT NULL,
+  unit_price DOUBLE PRECISION NOT NULL,
+  daily_demand DOUBLE PRECISION NOT NULL,
+  expiry_date DATE,
+  lead_time_days INTEGER NOT NULL
+);
