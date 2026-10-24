@@ -1,98 +1,12 @@
 [
-  {
-    "id": 1,
-    "name": "Bread",
-    "category": "Bakery",
-    "source_type": "MANUFACTURED",
-    "current_stock": 20,
-    "reorder_level": 30,
-    "unit_price": 40,
-    "daily_demand": 15,
-    "expiry_date": "2026-10-27",
-    "lead_time_days": 2
-  },
-  {
-    "id": 2,
-    "name": "Canned Beans",
-    "category": "Pantry",
-    "source_type": "MANUFACTURED",
-    "current_stock": 120,
-    "reorder_level": 25,
-    "unit_price": 35,
-    "daily_demand": 8,
-    "expiry_date": "2027-06-30",
-    "lead_time_days": 4
-  },
-  {
-    "id": 3,
-    "name": "Yogurt",
-    "category": "Dairy",
-    "source_type": "MANUFACTURED",
-    "current_stock": 45,
-    "reorder_level": 20,
-    "unit_price": 25,
-    "daily_demand": 10,
-    "expiry_date": "2026-10-26",
-    "lead_time_days": 2
-  },
-  {
-    "id": 4,
-    "name": "Rice",
-    "category": "Pantry",
-    "source_type": "MANUFACTURED",
-    "current_stock": 80,
-    "reorder_level": 30,
-    "unit_price": 60,
-    "daily_demand": 12,
-    "expiry_date": null,
-    "lead_time_days": 5
-  },
-  {
-    "id": 5,
-    "name": "Apples",
-    "category": "Produce",
-    "source_type": "PURCHASED",
-    "current_stock": 32,
-    "reorder_level": 25,
-    "unit_price": 10,
-    "daily_demand": 9,
-    "expiry_date": "2026-10-31",
-    "lead_time_days": 2
-  },
-  {
-    "id": 6,
-    "name": "Olive Oil",
-    "category": "Pantry",
-    "source_type": "PURCHASED",
-    "current_stock": 18,
-    "reorder_level": 12,
-    "unit_price": 180,
-    "daily_demand": 2,
-    "expiry_date": "2027-02-15",
-    "lead_time_days": 7
-  },
-  {
-    "id": 7,
-    "name": "Eggs",
-    "category": "Dairy",
-    "source_type": "PURCHASED",
-    "current_stock": 24,
-    "reorder_level": 18,
-    "unit_price": 8,
-    "daily_demand": 6,
-    "expiry_date": "2026-11-02",
-    "lead_time_days": 2
-  },
-  {
-    "id": 8,
-    "name": "Coffee",
-    "category": "Beverages",
-    "source_type": "MANUFACTURED",
-    "current_stock": 50,
-    "reorder_level": 15,
-    "unit_price": 120,
-    "daily_demand": 5,
-    "expiry_date": null,
-    "lead_time_days": 6
-  }
+  { "id": 1, "name": "Bread", "category": "Bakery", "source_type": "MANUFACTURED", "current_stock": 20, "reorder_level": 30, "unit_price": 40, "daily_demand": 15, "expiry_date": "2026-10-27", "lead_time_days": 2 },
+  { "id": 2, "name": "Milk 1L", "category": "Dairy", "source_type": "PURCHASED", "current_stock": 120, "reorder_level": 50, "unit_price": 28, "daily_demand": 30, "expiry_date": "2026-10-26", "lead_time_days": 1 },
+  { "id": 3, "name": "Rice 5kg", "category": "Grocery", "source_type": "PURCHASED", "current_stock": 200, "reorder_level": 40, "unit_price": 350, "daily_demand": 6, "expiry_date": null, "lead_time_days": 5 },
+  { "id": 4, "name": "Eggs (tray)", "category": "Dairy", "source_type": "PURCHASED", "current_stock": 45, "reorder_level": 20, "unit_price": 180, "daily_demand": 8, "expiry_date": "2026-11-14", "lead_time_days": 3 },
+  { "id": 5, "name": "Notebook", "category": "Stationery", "source_type": "PURCHASED", "current_stock": 80, "reorder_level": 25, "unit_price": 60, "daily_demand": 4, "expiry_date": null, "lead_time_days": 7 },
+  { "id": 6, "name": "Cooking Oil 1L", "category": "Grocery", "source_type": "PURCHASED", "current_stock": 18, "reorder_level": 20, "unit_price": 160, "daily_demand": 5, "expiry_date": null, "lead_time_days": 4 },
+  { "id": 7, "name": "Biscuits", "category": "Snacks", "source_type": "MANUFACTURED", "current_stock": 150, "reorder_level": 40, "unit_price": 20, "daily_demand": 12, "expiry_date": "2026-12-20", "lead_time_days": 4 },
+  { "id": 8, "name": "Curd", "category": "Dairy", "source_type": "MANUFACTURED", "current_stock": 60, "reorder_level": 25, "unit_price": 35, "daily_demand": 10, "expiry_date": "2026-10-28", "lead_time_days": 1 },
+  { "id": 9, "name": "Sugar 1kg", "category": "Grocery", "source_type": "PURCHASED", "current_stock": 35, "reorder_level": 30, "unit_price": 48, "daily_demand": 9, "expiry_date": null, "lead_time_days": 3 },
+  { "id": 10, "name": "Soft Drink 1L", "category": "Beverages", "source_type": "PURCHASED", "current_stock": 90, "reorder_level": 30, "unit_price": 40, "daily_demand": 0, "expiry_date": "2027-03-01", "lead_time_days": 6 }
 ]

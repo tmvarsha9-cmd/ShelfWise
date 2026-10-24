@@ -1,26 +1,22 @@
-// Application shell and page routes.
-import { Link, Navigate, Route, Routes } from "react-router-dom";
-import Dashboard from "./pages/Dashboard.jsx";
-import Inventory from "./pages/Inventory.jsx";
-import AIInsights from "./pages/AIInsights.jsx";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { ToastProvider } from "./components/Toast";
+import AppRoutes from "./routes";
+
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      retry: 1,
+      refetchOnWindowFocus: false,
+    },
+  },
+});
 
 export default function App() {
   return (
-    <main>
-      <header>
-        <h1>StockSense</h1>
-        <nav aria-label="Main navigation">
-          <Link to="/">Dashboard</Link>{" | "}
-          <Link to="/inventory">Inventory</Link>{" | "}
-          <Link to="/insights">AI Insights</Link>
-        </nav>
-      </header>
-      <Routes>
-        <Route path="/" element={<Dashboard />} />
-        <Route path="/inventory" element={<Inventory />} />
-        <Route path="/insights" element={<AIInsights />} />
-        <Route path="*" element={<Navigate to="/" replace />} />
-      </Routes>
-    </main>
+    <QueryClientProvider client={queryClient}>
+      <ToastProvider>
+        <AppRoutes />
+      </ToastProvider>
+    </QueryClientProvider>
   );
 }
